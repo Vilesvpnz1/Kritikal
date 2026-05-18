@@ -52,17 +52,6 @@ Change these in **Settings** inside the menu.
 
 ---
 
-## Repo files
-
-| File | What it is |
-|------|------------|
-| `kritika.js` | Obfuscated script — copy & paste into console |
-| `kritika-bookmarklet.txt` | Obfuscated bookmarklet URL — paste as bookmark link |
-| `kritika-bookmarklet.html` | Drag-and-drop bookmark installer |
-| `kritikal-features.txt` | Full list of every cheat and feature |
-
----
-
 ## Credits
 
 | Name | Role |
