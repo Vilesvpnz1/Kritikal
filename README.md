@@ -24,11 +24,11 @@ Based on [Blooket Cheats Plus](https://github.com/randomstuff69/blooketpluscheat
 2. Pick **one** of the two ways below.
 3. Open [Blooket](https://www.blooket.com) and join or host a game.
 
-### Method A — Bookmarklet (click to run)
+### Method A - Bookmarklet (click to run)
 
 open **`kritika-bookmarklet.txt`**, copy the entire line (starts with `javascript:`), create a new bookmark, and paste that line as the URL.
 
-### Method B — Console paste
+### Method B - Console paste
 
 1. Open **`kritika.js`** from this repo.
 2. Select all and copy the entire file.
