@@ -9,11 +9,11 @@ Based on [Blooket Cheats Plus](https://github.com/randomstuff69/blooketpluscheat
 ## Features
 
 - **190 cheats** for Global, Host, and all supported Blooket game modes
-- **Terminal UI** — drag, resize, minimize, close
-- **Search** — filter sidebar modules and cheats
-- **Color themes** — Kritikal, Default, Cyber, Matrix, Ocean, Sunset, Violet, Gold, Mint (+ more in Settings → Defaults)
-- **Alerts** — live log + leaderboard
-- **Chat panel** — in-game chat with commands (`/help`, `/cb`, `/dump`, etc.)
+- **Terminal UI** - drag, resize, minimize, close
+- **Search** - filter sidebar modules and cheats
+- **Color themes** - Kritikal, Default, Cyber, Matrix, Ocean, Sunset, Violet, Gold, Mint (+ more in Settings → Defaults)
+- **Alerts** - live log + leaderboard
+- **Chat panel** - in-game chat with commands (`/help`, `/cb`, `/dump`, etc.)
 - Full feature list: see [`kritikal-features.txt`](kritikal-features.txt)
 
 ---
