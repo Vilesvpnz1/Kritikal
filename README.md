@@ -26,11 +26,7 @@ Based on [Blooket Cheats Plus](https://github.com/randomstuff69/blooketpluscheat
 
 ### Method A — Bookmarklet (click to run)
 
-1. Open **`kritika-bookmarklet.html`** from this repo in your browser.
-2. Drag the **Kritikal** button to your bookmarks bar.
-3. On Blooket, click the bookmark.
-
-**Or:** open **`kritika-bookmarklet.txt`**, copy the entire line (starts with `javascript:`), create a new bookmark, and paste that line as the URL.
+open **`kritika-bookmarklet.txt`**, copy the entire line (starts with `javascript:`), create a new bookmark, and paste that line as the URL.
 
 ### Method B — Console paste
 
@@ -39,7 +35,7 @@ Based on [Blooket Cheats Plus](https://github.com/randomstuff69/blooketpluscheat
 3. On Blooket, press **F12** → **Console**.
 4. Paste and press **Enter**.
 
-Both methods use the **same obfuscated script**. Use whichever is easier for you.
+Both methods use the **same  script**. Use whichever is easier for you.
 
 ### Default keybinds
 
