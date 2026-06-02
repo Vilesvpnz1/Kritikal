@@ -1,61 +1,60 @@
 # Kritikal
 
-Kritikal is a browser panel script for gameplay tooling, UI utilities, effects, feature search, and an AI helper tab.
+Kritikal is a browser panel script with feature tabs, visual effects, mini games, feature search, and an AI helper tab.
 
 ## Files
 
-- `kritikal.txt` — main console-ready script.
-- `kritikal-obfuscated.txt` — obfuscated script version.
-- `kritikal-obfuscated-bookmarklet.txt` — encoded `javascript:` bookmarklet payload.
-- `kritikal-features.txt` — full feature reference.
+- `kritikal.txt` - main script for console use
+- `kritikal-obfuscated.txt` - obfuscated build
+- `kritikal-obfuscated-bookmarklet.txt` - bookmarklet URL payload
+- `kritikal-features.txt` - full feature list
 
-## Quick Start (Console Version)
+## Run in Console
 
-1. Open the target site in your browser.
-2. Open Developer Tools (`F12` or `Ctrl+Shift+I`).
-3. Go to the **Console** tab.
-4. Open `kritikal.txt`, copy all content, and paste it into the console.
-5. Press Enter to run.
-6. Use `Ctrl+E` to show/hide the panel.
+1. Open the target page.
+2. Open DevTools (`F12` or `Ctrl+Shift+I`).
+3. Open the **Console** tab.
+4. Copy everything from `kritikal.txt`.
+5. Paste and press Enter.
+6. Toggle panel visibility with `Ctrl+E`.
 
-## Bookmarklet Version
+## Run as Bookmarklet
 
 1. Open `kritikal-obfuscated-bookmarklet.txt`.
-2. Copy the entire single line (starts with `javascript:`).
-3. Create a new browser bookmark.
-4. Set the bookmark URL to the copied line.
-5. Open the target page.
-6. Click the bookmark to inject and launch Kritikal.
+2. Copy the full single line that starts with `javascript:`.
+3. Create a bookmark in your browser.
+4. Paste that line into the bookmark URL field.
+5. Open the target page and click the bookmark.
 
-## Using the Panel
+## Basic Use
 
-- Use the left sidebar to switch sections.
-- Use the top controls for fullscreen, feature search, minimize, and close.
-- Use **Terminal** for arcade mini-games.
-- Use **AI Assistant** for prompt-based help tied to Kritikal features.
-- Use **Settings** to import/export themes, change keybinds, and configure visuals.
+- Left sidebar switches sections
+- Top controls handle fullscreen, feature search, minimize, and close
+- **Terminal** has the mini games
+- **AI Assistant** is for prompt help tied to Kritikal UI/features
+- **Settings** includes themes, effects, keybinds, and import/export options
 
 ## AI Assistant Setup
 
-Some environments block direct API calls through Content Security Policy (CSP). If direct requests fail:
+Some pages block direct API calls because of CSP. If that happens:
 
-1. Open the **AI Assistant** tab.
-2. Choose provider.
-3. Enter your API key.
-4. Fill in **AI Proxy URL** if direct requests are blocked.
-5. Save settings and send prompts.
+1. Open **AI Assistant**
+2. Select a provider
+3. Enter API key
+4. Set **AI Proxy URL** if direct calls are blocked
+5. Save settings and send your prompt
 
-Supported providers include OpenAI, OpenRouter, Groq, Anthropic, Google, Together, Mistral, DeepSeek, xAI, Fireworks, Cohere, Perplexity, Moonshot, Novita, SambaNova, NVIDIA, and Cerebras.
+Current providers include OpenAI, OpenRouter, Groq, Anthropic, Google, Together, Mistral, DeepSeek, xAI, Fireworks, Cohere, Perplexity, Moonshot, Novita, SambaNova, NVIDIA, and Cerebras.
 
-## Common Issues
+## Common Problems
 
-- **Nothing happens after run**: verify paste completed and no console syntax errors.
-- **API calls blocked**: use the AI proxy field in AI Assistant.
-- **Image URL blocked**: use a CSP-allowed host or use local image import.
-- **Bookmarklet not running**: ensure the URL starts with `javascript:` and is a single uninterrupted line.
+- **Script does not open**: confirm the full script was pasted and no console syntax error appeared
+- **AI request fails**: use the proxy field in AI Assistant
+- **Background image fails**: use a CSP-allowed host or import a local image
+- **Bookmarklet does not run**: make sure the URL is one continuous `javascript:` line
 
-## Safety Notes
+## Notes
 
-- Keep API keys private.
-- Do not paste unknown scripts into console.
-- Review script behavior before sharing or deploying.
+- Keep API keys private
+- Do not paste unknown scripts
+- Review code before sharing builds
