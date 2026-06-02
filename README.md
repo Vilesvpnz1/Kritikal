@@ -4,9 +4,8 @@ Kritikal is a browser panel script with feature tabs, visual effects, mini games
 
 ## Files
 
-- `kritikal.txt` - main script for console use
-- `kritikal-obfuscated.txt` - obfuscated build
-- `kritikal-obfuscated-bookmarklet.txt` - bookmarklet URL payload
+- `kritikal.js` - main script for console use
+- `kritikal-bookmarklet.js` - bookmarklet URL payload
 - `kritikal-features.txt` - full feature list
 
 ## Run in Console
