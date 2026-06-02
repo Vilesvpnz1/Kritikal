@@ -1,0 +1,123 @@
+KRITIKAL FEATURE GUIDE
+
+Overview
+- Kritikal is a browser-injected control panel with a themed UI, category sidebar, quick actions, mini-games, effect overlays, feature search, and AI helper tooling.
+- The script supports both direct console execution and bookmarklet loading.
+
+Core UI Features
+- Draggable/resizable panel UI.
+- Top control buttons:
+  - Fullscreen/restore toggle.
+  - Feature Search launcher.
+  - Minimize/collapse toggle.
+  - Close/shutdown button.
+- Ctrl+E hide/show keybind.
+- Sidebar search to filter module tabs quickly.
+- Terminal-style visual theme and animations.
+
+Sidebar/Section Structure
+- Global
+- Host
+- Pirate's Voyage
+- Gold Quest
+- Cafe
+- Crypto Hack
+- Deceptive Dinos
+- Factory
+- Fishing Frenzy
+- Flappy Blook
+- Crazy Kingdom
+- Racing
+- Battle Royale
+- Blook Rush
+- Monster Brawl
+- Tower Defense
+- Santa's Workshop
+- AI Assistant
+- Terminal
+- Extras
+- Settings
+- Alerts
+
+Feature Search Hub
+- Dedicated popup opened from the top "Feature Search" button.
+- Searches through available feature names across categories.
+- Custom-styled scrollbar.
+- Hides with Ctrl+E when main panel hides.
+
+AI Assistant (Dedicated Tab)
+- Separate AI Assistant section in the sidebar.
+- Stores provider-specific API keys.
+- Optional model override field.
+- Prompt box and response panel.
+- Proxy URL support for CSP-restricted environments.
+- Includes a system instruction context focused on Kritikal UI/feature assistance.
+
+AI Provider Support
+- openai
+- openrouter
+- groq
+- anthropic
+- google
+- together
+- mistral
+- deepseek
+- xai
+- fireworks
+- cohere
+- perplexity
+- moonshot
+- novita
+- sambanova
+- nvidia
+- cerebras
+
+Background Customization
+- Background URL setting.
+- Import Background from local image file.
+- Applies background directly to panel background layer.
+- URL validation for CSP-safe behavior.
+
+Weather/Visual FX
+- Off
+- Rain
+- Snow
+- Leaves
+- Sparks
+- Orbs
+- Matrix
+- Bubbles
+- Intensity control.
+- Overlay canvas rendering with runtime start/stop.
+
+Terminal Arcade (Mini-Games)
+- Snake
+- Reflex
+- Memory
+- Click Rush
+- Cipher
+- Pulse
+- 2048
+- Dodge
+- Typing Sprint
+- Lobby navigation and per-game cleanup behavior.
+
+Settings System
+- Import theme settings via JSON.
+- Export theme settings via clipboard.
+- Preset/default theme switching.
+- Keybind configuration:
+  - Hide keybind.
+  - Shutdown keybind.
+- Persistent settings via localStorage.
+
+Compatibility Notes
+- Some external URLs and API calls can be blocked by site CSP.
+- AI assistant can use a proxy endpoint where direct provider calls are blocked.
+- Background URL supports hosts that comply with the current page CSP.
+
+Files in this Workspace
+- kritikal.txt: main readable script.
+- kritikal-obfuscated.txt: obfuscated script build.
+- kritikal-obfuscated-bookmarklet.txt: bookmarklet-ready encoded version.
+- kritikal-features.txt: this feature reference file.
