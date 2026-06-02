@@ -17,7 +17,7 @@ Kritikal is a browser panel script with feature tabs, visual effects, mini games
 5. Paste and press Enter.
 6. Toggle panel visibility with `Ctrl+E`.
 
-## Run as Bookmarklet
+## Run as Bookmarklet (BROKEN RN DONT USE)
 
 1. Open `kritikal-obfuscated-bookmarklet.txt`.
 2. Copy the full single line that starts with `javascript:`.
